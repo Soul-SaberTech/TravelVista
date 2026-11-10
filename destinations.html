@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Destinations | TravelVista</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">Travel<span>Vista</span></a
+      ><button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav>
+        <a href="index.html">Home</a
+        ><a class="active" href="destinations.html">Destinations</a
+        ><a href="packages.html">Packages</a><a href="gallery.html">Gallery</a
+        ><a href="about.html">About</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-banner">
+        <p class="eyebrow">EXPLORE SOMEWHERE NEW</p>
+        <h1>Find your destination</h1>
+        <p>
+          From relaxing coastlines to lively cities, your next adventure awaits.
+        </p>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Places to explore</h2>
+          <p>Search by destination name.</p>
+        </div>
+        <input
+          class="search"
+          id="destinationSearch"
+          type="search"
+          placeholder="Search destinations..."
+        />
+        <div class="cards" id="destinationGrid">
+          <article class="card searchable" data-name="bali indonesia">
+            <img
+              src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=900&q=85"
+              alt="Bali"
+            />
+            <div>
+              <h3>Bali, Indonesia</h3>
+              <p>Temples, beaches and tropical scenery.</p>
+            </div>
+          </article>
+          <article class="card searchable" data-name="paris france">
+            <img
+              src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=85"
+              alt="Paris"
+            />
+            <div>
+              <h3>Paris, France</h3>
+              <p>Landmarks, cafés and world-famous museums.</p>
+            </div>
+          </article>
+          <article class="card searchable" data-name="manali india">
+            <img
+              src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=85"
+              alt="Manali"
+            />
+            <div>
+              <h3>Manali, India</h3>
+              <p>Mountain scenery, markets and fresh air.</p>
+            </div>
+          </article>
+          <article class="card searchable" data-name="switzerland europe">
+            <img
+              src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=900&q=85"
+              alt="Switzerland"
+            />
+            <div>
+              <h3>Switzerland</h3>
+              <p>Alpine villages, lakes and scenic railways.</p>
+            </div>
+          </article>
+          <article class="card searchable" data-name="kyoto japan">
+            <img
+              src="https://images.unsplash.com/photo-1493976059105-7b5f8a5b2f1b?auto=format&fit=crop&w=900&q=85"
+              alt="Kyoto"
+            />
+            <div>
+              <h3>Kyoto, Japan</h3>
+              <p>Gardens, shrines and traditional streets.</p>
+            </div>
+          </article>
+          <article class="card searchable" data-name="iceland">
+            <img
+              src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=900&q=85"
+              alt="Iceland"
+            />
+            <div>
+              <h3>Iceland</h3>
+              <p>Waterfalls, volcanic landscapes and glaciers.</p>
+            </div>
+          </article>
+        </div>
+        <p id="noResults" hidden>No destinations match your search.</p>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="index.html">Travel<span>Vista</span></a>
+      <p>Explore more. Worry less. Travel better.</p>
+      <small>© 2026 TravelVista · Student mini project</small>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gallery | TravelVista</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="index.html">Travel<span>Vista</span></a
+      ><button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav>
+        <a href="index.html">Home</a><a href="destinations.html">Destinations</a
+        ><a href="packages.html">Packages</a
+        ><a class="active" href="gallery.html">Gallery</a
+        ><a href="about.html">About</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-banner">
+        <p class="eyebrow">A LITTLE INSPIRATION</p>
+        <h1>Travel gallery</h1>
+        <p>Beautiful places that make us want to pack a bag.</p>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Views from around the world</h2>
+          <p>Select a photo to view it larger.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1000&q=85"
+              alt="Turquoise ocean"
+            /></button
+          ><button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+              alt="Mountain peaks"
+            /></button
+          ><button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=85"
+              alt="Paris"
+            /></button
+          ><button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=85"
+              alt="Green forest"
+            /></button
+          ><button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=85"
+              alt="Desert dunes"
+            /></button
+          ><button class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=85"
+              alt="City skyline"
+            />
+          </button>
+        </div>
+      </section>
+      <div
+        class="lightbox"
+        id="lightbox"
+        hidden
+        role="dialog"
+        aria-modal="true"
+      >
+        <button class="lightbox-close" aria-label="Close">×</button
+        ><img src="" alt="Enlarged travel photo" />
+      </div>
+    </main>
+    <footer>
+      <a class="logo" href="index.html">Travel<span>Vista</span></a>
+      <p>Explore more. Worry less. Travel better.</p>
+      <small>© 2026 TravelVista · Student mini project</small>
+    </footer>
+  </body>
+</html>
